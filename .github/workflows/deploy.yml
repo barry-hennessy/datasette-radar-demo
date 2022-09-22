@@ -1,0 +1,47 @@
+name: Fetch latest data and deploy with Datasette
+
+on:
+  push:
+    branches:
+      - main 
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - uses: actions/cache@v2
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Build radar.db database
+      run: ./init.sh
+    - id: 'auth'
+      name: 'Authenticate to Google Cloud'
+      uses: 'google-github-actions/auth@v0'
+      with:
+        credentials_json: '${{ secrets.DATASETTE_RADAR_DEMO_DEPLOYER }}'
+    - name: Set up Cloud Run
+      uses: google-github-actions/setup-gcloud@v0
+    - name: 'Use gcloud CLI'
+      run: 'gcloud info'
+    - name: Deploy to Cloud Run
+      run: |-
+        gcloud config set run/region $GCP_REGION;
+        datasette publish cloudrun radar.db \
+          --service datasette-radar-demo \
+          -m metadata.json \
+          --install datasette-cluster-map;
+      env:
+        GCP_REGION: '${{ secrets.GCP_REGION }}'

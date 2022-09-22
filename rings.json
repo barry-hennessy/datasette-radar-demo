@@ -1,0 +1,6 @@
+[
+    {"id": 0, "ring": "ADOPT"},
+    {"id": 1, "ring": "TRIAL"},
+    {"id": 2, "ring": "ASSESS"},
+    {"id": 3, "ring": "HOLD"}
+]

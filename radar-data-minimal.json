@@ -1,0 +1,452 @@
+[
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "AWS Athena",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "AWS Data Pipeline",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "AWS EMR",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "AWS Glue",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Airflow",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Databricks",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Flink",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Google BigQuery",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "Hadoop",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Presto",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Spark",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "YARN",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "dbt",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "AWS DynamoDB",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "AWS S3",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "Aerospike",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "Amazon MemoryDB",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Amazon Redshift",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "Amazon SageMaker Feature Store",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Cassandra",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "Consul",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "CouchBase",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Druid",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Elasticsearch",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Exasol",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "Google Bigtable",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "HBase",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "HDFS",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "Hazelcast",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "Memcached",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "MongoDB",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "MySQL",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "Oracle DB",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "PostgreSQL",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Redis",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "RocksDB",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "Solr",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 3,
+    "label": "ZooKeeper",
+    "active": true
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "etcd",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "AWS CloudFormation",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "AWS CloudFront",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 1,
+    "label": "AWS Lambda",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Amazon SageMaker",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Docker",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Kubernetes",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Nginx",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "OpenTracing",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 3,
+    "label": "STUPS",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Skipper",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 2,
+    "label": "Slurm",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 2,
+    "label": "WebAssembly",
+    "active": true
+  },
+  {
+    "quadrant": 1,
+    "ring": 3,
+    "label": "ZMON",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Clojure",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "Dart",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Go",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "GraphQL",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Haskell",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Java",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "JavaScript",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Kotlin",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "OpenAPI (Swagger)",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Python",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 2,
+    "label": "R",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Rust",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Scala",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Swift",
+    "active": true
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "TypeScript",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "AWS Kinesis",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "AWS SNS",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "AWS SQS",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "ActiveMQ",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "HornetQ",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Kafka",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Nakadi",
+    "active": true
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "RabbitMQ",
+    "active": true
+  }
+]

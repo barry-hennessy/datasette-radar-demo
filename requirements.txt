@@ -1,0 +1,2 @@
+datasette>=0.62
+sqlite-utils>=3.29

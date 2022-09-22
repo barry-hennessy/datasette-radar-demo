@@ -1,0 +1,6 @@
+[
+    {"id": 0, "ring": "Datastores"},
+    {"id": 1, "ring": "Data Management"},
+    {"id": 2, "ring": "Infrastructure"},
+    {"id": 3, "ring": "Languages"}
+]
